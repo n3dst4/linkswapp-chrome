@@ -1,22 +1,22 @@
 {
-    "name": "LinkSwapp",
-    "version": "0.0.1",
-    "homepage_url": "http://linkswapp.in/chrome",
-    "offline_enabled": false,
-    "icons": { 
-        "16": "images/icon/16.png",
-        "48": "images/icon/48.png",
-        "128": "images/icon/128.png"
-    },
-    "browser_action": {
-        "default_icon": "images/icon/19.png",
-        "default_title": "LinkSwapp",
-        "default_popup": "popup.html"
-    },
-    "content_security_policy": "default-src 'self' https://linkswapp.in",
-    "permissions": [
-        "chrome://favicon/",
-        "contextMenus",
-        "notifications"
-    ]
+	"name": "LinkSwapp",
+	"version": "0.0.1",
+	"homepage_url": "http://linkswapp.in/chrome",
+	"offline_enabled": false,
+	"icons": { 
+		"16": "images/icon/16.png",
+		"48": "images/icon/48.png",
+		"128": "images/icon/128.png"
+	},
+	"browser_action": {
+		"default_icon": "images/icon/19.png",
+		"default_title": "LinkSwapp",
+		"default_popup": "popup.html"
+	},
+	"content_security_policy": "default-src 'self' https://linkswapp.in",
+	"permissions": [
+		"chrome://favicon/",
+		"contextMenus",
+		"notifications"
+	]
 }

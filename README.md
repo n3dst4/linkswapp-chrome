@@ -6,7 +6,7 @@ The Google Chrome browser extension that acts as a client to the LinkSwapp.in se
 
 1. Get a copy of linkswapp-chrome. Perform the following command in the root of your projects folder:
 
-        $ git clone git@github.com:djmccormick/linkswapp-chrome.git
+		$ git clone git@github.com:djmccormick/linkswapp-chrome.git
 
 2. Visit chrome://settings/extensions in Google Chrome.
 
