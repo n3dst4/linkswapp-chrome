@@ -2,15 +2,17 @@ define([
   'jquery',
   'underscore',
   'backbone',
-  'views/example'
-], function($, _, Backbone, exampleView){
+  'views/example',
+  'models/user'
+], function($, _, Backbone, exampleView, userModel){
 
   var AppRouter = Backbone.Router.extend({
     routes: {
       '*actions': 'defaultAction'
     },
     defaultAction: function(actions){
-      exampleView.render();
+      var user = new userModel;
+      var example = new exampleView({ model: user, user_id: '4efd7d3984ce64cd77000002' });
     }
   });
 

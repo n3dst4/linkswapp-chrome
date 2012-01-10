@@ -13,10 +13,12 @@
         "default_title": "LinkSwapp.in",
         "default_popup": "index.html"
     },
-    "content_security_policy": "default-src 'self' http://linkswapp.in",
+    "content_security_policy": "default-src 'self' 'unsafe-inline' http://linkswapp.in",
     "permissions": [
         "chrome://favicon/",
         "contextMenus",
-        "notifications"
+        "notifications",
+        "http://linkswapp.in/",
+        "http://*.linkswapp.in/"
     ]
 }
