@@ -21,7 +21,7 @@ define([
       });
     },
     render: function() {
-      this.el.html( _.template(exampleTemplate, this.model) );
+      this.el.html( _.template(exampleTemplate, { user: this.model.toJSON() }) );
       return this;
     }
   });

@@ -13,7 +13,7 @@
     "default_title": "LinkSwapp.in",
     "default_popup": "index.html"
   },
-  "content_security_policy": "default-src 'self' 'unsafe-inline' http://linkswapp.in",
+  "content_security_policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval' http://linkswapp.in",
   "permissions": [
     "chrome://favicon/",
     "contextMenus",
